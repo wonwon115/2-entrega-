@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./page/stylo.css">
+    <title>2° entrega</title>
+</head>
+<body>
+    <h1>Convertidor de Divisas 🇦🇷💱</h1>
+    <div class="add">
+        <input type="number" id="monto" placeholder="Ingrese monto a convertir">
+        <select  id="origen">
+            <option value="ARS">Peso Argentino (ARS)</option>
+        </select>
+        <select id="destino">
+            <option value="oficial">Dólar Oficial</option>
+            <option value="blue">Dólar Blue</option>
+            <option value="mep">Dólar MEP</option>
+            <option value="ccl">Dólar CCL</option>
+        </select>
+        <button onclick="convertirDivisa()">Convertir</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="./page/main.js"></script>
+</body>
+</html>
